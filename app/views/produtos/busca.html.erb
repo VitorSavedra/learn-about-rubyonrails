@@ -1,0 +1,14 @@
+<table class="table">
+    <thread>
+        <tr>
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+            <th>Ações</th>
+        </tr>
+    </thread>
+    <tbody>
+        <%= render @produtos %>
+</table>
+
+<%= link_to "Criar novo produto", new_produto_path %>
